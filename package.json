@@ -1,0 +1,61 @@
+{
+  "name": "staking-dapp",
+  "version": "0.1.0",
+  "private": true,
+  "module": "commonjs",
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@nomiclabs/hardhat-ethers": "^2.2.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "chai": "^4.3.7",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.12.5",
+    "hardhat-contract-sizer": "^2.6.1",
+    "hardhat-deploy": "^0.11.22",
+    "hardhat-deploy-ethers": "^0.3.0-beta.13",
+    "hardhat-gas-reporter": "^1.0.9",
+    "magic-sdk": "^13.1.0",
+    "mocha": "^10.2.0",
+    "prettier": "^2.8.2",
+    "prettier-plugin-solidity": "^1.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-moralis": "^1.4.2",
+    "react-scripts": "5.0.1",
+    "solhint": "^3.3.7",
+    "solidity-coverage": "^0.8.2",
+    "web-vitals": "^2.1.4",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.5",
+    "@nomiclabs/hardhat-etherscan": "^3.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

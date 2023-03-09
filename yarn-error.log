@@ -1,0 +1,84 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\sanjeevan\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @web3auth/web3auth magic-sdk@7.0.0
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Geth;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\ProgramData\chocolatey\bin;C:\Program Files\CMake\bin;C:\Program Files\LLVM\bin;C:\Users\sanjeevan\Downloads\staking_deposit-cli-76ed782-windows-amd64.zip\staking_deposit-cli-76ed782-windows-amd64;%NVM_HOME%;%NVM_SYMLINK%;C:\Users\sanjeevan\.cargo\bin;C:\Users\sanjeevan\AppData\Local\Microsoft\WindowsApps;C:\Users\sanjeevan\AppData\Roaming\npm;C:\Users\sanjeevan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-17.0.4.1\bin;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Git\bin;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Geth;C:\Users\sanjeevan\Downloads\staking_deposit-cli-76ed782-windows-amd64.zip\staking_deposit-cli-76ed782-windows-amd64;C:\Users\sanjeevan\AppData\Roaming\nvm;C:\Program Files\nodejs
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'E:\stakinmg-minimal\node_modules\keccak\prebuilds\win32-x64\node.napi.node'
+
+npm manifest: 
+  {
+    "name": "staking-dapp",
+    "version": "0.1.0",
+    "private": true,
+    "module": "commonjs",
+    "dependencies": {
+      "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+      "@nomiclabs/hardhat-ethers": "^2.2.1",
+      "@testing-library/jest-dom": "^5.16.5",
+      "@testing-library/react": "^13.4.0",
+      "@testing-library/user-event": "^13.5.0",
+      "chai": "^4.3.7",
+      "dotenv": "^16.0.3",
+      "ethers": "^5.7.2",
+      "hardhat": "^2.12.5",
+      "hardhat-contract-sizer": "^2.6.1",
+      "hardhat-deploy": "^0.11.22",
+      "hardhat-deploy-ethers": "^0.3.0-beta.13",
+      "hardhat-gas-reporter": "^1.0.9",
+      "mocha": "^10.2.0",
+      "prettier": "^2.8.2",
+      "prettier-plugin-solidity": "^1.1.1",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-scripts": "5.0.1",
+      "solhint": "^3.3.7",
+      "solidity-coverage": "^0.8.2",
+      "web-vitals": "^2.1.4",
+      "yarn": "^1.22.19"
+    },
+    "devDependencies": {
+      "@nomicfoundation/hardhat-chai-matchers": "^1.0.5",
+      "@nomiclabs/hardhat-etherscan": "^3.1.4"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
