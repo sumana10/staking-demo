@@ -15,47 +15,18 @@ module.exports = {
     hardhat:{
       chainId:1337
     },
-    mumbai:{
-      url:`https://polygon-mumbai.infura.io/v3/${process.env.INFURA_API}`,
+    amoy:{
+      url:`https://polygon-amoy.infura.io/v3/${process.env.INFURA_API}`,
       accounts:[process.env.MAIN_ACCOUNT],
-      chainId:80001,
-    },
+      chainId:80002,
+    }
  
-    //go to metamask and select mumbai testnet
+    //go to metamask and select amoy testnet
     //go to account details from the three dots option
     //select export private key
-    //copy and paste pvt key .env Main_account 
+    //copy and paste pvt key .env MAIN_ACCOUNT
 
   },
-  gasReporter:{
-    enabled:true,
-    currency:"INR",
-  //  coinmarketcap:process.env.COINMARKETCAP,
-    coinmarketcap:process.env.COINMARKETCAP,
-    token:"matic",
-    outputFile:"gasReports.txt",
-    noColors:true
-  }
+ 
 }
-    // goerli:{
-    //   url: `https://goerli.infura.io/v3/${process.env.INFURA_API}`,
-    //   accounts:[process.env.MAIN_ACCOUNT],
-    //   chainId: 5,
-    // },
-    // mumbai:{
-    //   url:`https://polygon-mumbai.infura.io/v3/${process.env.INFURA_API}`,
-    //   accounts:[process.env.MAIN_ACCOUNT],
-    //   chainId:80001,
-    // },
-
-
-  
-  // gasReporter:{
-  //   enabled:true,
-  //   currency:"INR",
-  //   coinmarketcap:process.env.COINMARKETCAP,
-  //   token:"matic",
-  //   outputFile:"gasReports.txt",
-  //   noColors:true
-  // }
-  
+ 

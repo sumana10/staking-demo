@@ -5,7 +5,7 @@ import StakeForm from "../components/StakeForm";
 
 export default function Home() {
   return (
-    <main className="bg-gradient-to-r from-zinc-300 to-indigo-600">
+    <main className="bg-ethereum-gradient">
       <div className={` ${styles.container}`}>
         <Header />
         <StakeDetails />

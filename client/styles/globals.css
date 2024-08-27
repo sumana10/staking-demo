@@ -14,4 +14,28 @@ html {
   main {
     @apply h-full;
   }
+  .myDiv Form{
+    background: hsla(0,0%,100%,.24);
+  }
   
+  .myDiv Form h3{
+  
+    color: #000;
+  
+  }
+  .myDiv button{ 
+    color: #fff;
+    background-color: #854ce6;
+    display: block;
+    width: 50%;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    border-radius: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
+    text-align: center;
+    font-weight: 400;
+  }
